@@ -1,0 +1,29 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-05-28 00:35:54 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2017-05-28 00:35:58 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 00:35:58 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 00:35:58 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 00:35:58 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 00:35:58 --> 404 Page Not Found: Assets/css
+ERROR - 2017-05-28 00:35:58 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 00:39:04 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2017-05-28 01:38:59 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2017-05-28 01:38:59 --> 404 Page Not Found: Indexhtml/index
+ERROR - 2017-05-28 05:33:12 --> 404 Page Not Found: Manager/assets
+ERROR - 2017-05-28 08:15:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2017-05-28 08:15:44 --> 404 Page Not Found: Sitemapxml/index
+ERROR - 2017-05-28 08:15:50 --> 404 Page Not Found: Page-serviceshtml/index
+ERROR - 2017-05-28 08:15:52 --> 404 Page Not Found: Page-about-3html/index
+ERROR - 2017-05-28 08:15:53 --> 404 Page Not Found: Indexhtml/index
+ERROR - 2017-05-28 10:10:47 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 10:10:47 --> 404 Page Not Found: Assets/css
+ERROR - 2017-05-28 10:10:47 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 10:10:47 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 10:10:47 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 10:10:47 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 10:10:48 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 10:10:48 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 10:10:49 --> 404 Page Not Found: Assets/js
+ERROR - 2017-05-28 16:45:27 --> 404 Page Not Found: Indexhtml/index
+ERROR - 2017-05-28 22:18:49 --> 404 Page Not Found: Robotstxt/index

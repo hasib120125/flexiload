@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body>
+  
+<table width="80%" border="0">
+  <tr>
+    <th>Box 1</th>
+    <th>Box 2</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td><input id="box1" type="text" oninput="calculate()" /></td>
+    <td><input id="box2" type="text" oninput="calculate()" /></td>
+    <td><input id="result" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<script type="text/javascript">
+  	function calculate() {
+		var myBox1 = document.getElementById('box1').value;	
+		var myBox2 = document.getElementById('box2').value;
+		var result = document.getElementById('result');	
+		var myResult = myBox1 * myBox2;
+		result.value = myResult;
+	}
+	</script>
+</body>
+</html>

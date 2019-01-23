@@ -1,0 +1,161 @@
+
+.dataTables_wrapper:before,
+.dataTables_wrapper:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.dataTables_wrapper:after {
+  clear: both;
+}
+.dataTables_wrapper table {
+  margin-bottom: 0;
+}
+.dataTables_wrapper table thead tr th {
+  font-weight: bold;
+  outline: none;
+  cursor: default;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.dataTables_wrapper table thead tr th.sorting_asc:before,
+.dataTables_wrapper table thead tr th.sorting_desc:before {
+  display: block;
+  float: right;
+
+
+}
+
+.dataTables_wrapper table thead tr th:active {
+  outline: none;
+}
+.dataTables_wrapper table thead tr th.sorting_asc,
+.dataTables_wrapper table thead tr th.sorting_desc {
+
+}
+.dataTables_wrapper table tfoot tr th {
+  font-weight: bold;
+}
+.dataTables_wrapper table + .row {
+  margin-bottom: 20px;
+}
+.dataTables_wrapper > table:first-child {
+  -webkit-border-radius: 3px 3px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px 3px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 3px 3px 0 0;
+  background-clip: padding-box;
+}
+.dataTables_wrapper a {
+  cursor: pointer;
+  outline: none;
+}
+.dataTables_wrapper .col-left {
+  padding-right: 0;
+}
+.dataTables_wrapper .col-right {
+  padding-left: 0;
+}
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+
+  border: 1px solid #ebebeb;
+  border-bottom: 0;
+  padding: 15px 12px;
+  height: 58px;
+}
+.dataTables_wrapper .dataTables_length:before,
+.dataTables_wrapper .dataTables_filter:before,
+.dataTables_wrapper .dataTables_length:after,
+.dataTables_wrapper .dataTables_filter:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.dataTables_wrapper .dataTables_length:after,
+.dataTables_wrapper .dataTables_filter:after {
+  clear: both;
+}
+.dataTables_wrapper .dataTables_length {
+  border-right: 0;
+  -webkit-border-radius: 3px 0 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px 0 0 0;
+  -moz-background-clip: padding;
+  border-radius: 3px 0 0 0;
+  background-clip: padding-box;
+}
+.dataTables_wrapper .dataTables_length > label {
+  white-space: nowrap;
+  margin-top: -7px;
+}
+.dataTables_wrapper .dataTables_length > label .select2-container {
+  display: inline-block;
+  width: auto !important;
+  min-width: 87px;
+}
+.dataTables_wrapper .dataTables_filter {
+  border-left: 0;
+  padding-top: 13px;
+  -webkit-border-radius: 0 3px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0 3px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 0 3px 0 0;
+  background-clip: padding-box;
+}
+.dataTables_wrapper .dataTables_filter > label {
+  float: right;
+  display: block;
+  white-space: nowrap;
+}
+.dataTables_wrapper .dataTables_filter > label input {
+  display: block;
+  width: 100%;
+  height: 31px;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.42857143;
+
+ 
+ 
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -moz-transition: border-color ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  display: inline-block;
+  width: 150px;
+  margin-left: 5px;
+}
+
+
+.dataTables_wrapper .dataTables_info.dataTables_paginate,
+.dataTables_wrapper .dataTables_paginate.dataTables_paginate {
+  border-left: 0;
+  -webkit-border-radius: 0 0 3px 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0 0 3px 0;
+  -moz-background-clip: padding;
+  border-radius: 0 0 3px 0;
+  background-clip: padding-box;
+  text-align: right;
+}
+.dataTables_wrapper .dataTables_info.dataTables_paginate .pagination,
+.dataTables_wrapper .dataTables_paginate.dataTables_paginate .pagination {
+  margin: 0;
+}
+.dataTables_wrapper .export-data {
+  position: absolute;
+  right: 250px;
+  top: 13px;
+}
+
+
